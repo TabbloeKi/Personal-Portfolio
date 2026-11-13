@@ -8,6 +8,7 @@
   <style>
     .pic_bio {
       display: contents;
+      position: absolute;
     }
 
     p {
@@ -17,12 +18,32 @@
 
     .container {
       display: flex;
+      margin-top: 10%;
     }
 
     .project {
       border: 1px solid white;
-      height: 200px;
+      height: auto;
+      flex: 1;
+      margin: 10px;
     }
+
+    li {
+      margin-top: 5px;
+    }
+
+    div img {
+      margin-bottom: 10px;
+    }
+
+    .socials {
+      margin-top: 15%;
+    }
+
+    a {
+      color: lightblue;
+    }
+
   </style>
 </head>
 <body>
@@ -31,9 +52,57 @@
 
   <div class="pic_bio">
     <img style="border: solid; border-radius: 50%;" src="Portfolio pfp.jpg" alt="Portfolio profile pic of Nathan">
+
     <p>Nathan likes to create websites and apps with coding. Python and JavaScript are his personal favorite languages to work with. He is currently pursuing an Associate's degree in Computer Programming at Joliet Junior College. He enjoys problem solving and creating things that others can use for enjoyment. Aside from that, Nathan enjoys to play video games and learn game development in his free time. He also hopes to make his own video game that many can experience and enjoy!</p>
+    <br>
   </div>
 
+  <div class="socials">
+    <a href="https://github.com/TabbloeKi">GitHub Profile</a>
+  </div>
   
+
+  <!--Project #1 box-->
+  <div class="container">
+    <div class="first project">
+      <img src="" alt="Project #1">
+      <br>
+      <p>This is where I will explain the first project.</p>
+      <ul>
+        <p style="text-decoration: underline;">Skills gained</p>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </div>
+
+    <div class="second project">
+      <img src="" alt="Project #2">
+      <br>
+      <p>This is where I will explain the first project.</p>
+      <ul>
+        <p style="text-decoration: underline;">Skills gained</p>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </div>
+
+    <div class="third project">
+      <img src="" alt="Project #3">
+      <br>
+      <p>This is where I will explain the first project.</p>
+      <ul>
+        <p style="text-decoration: underline;">Skills gained</p>
+        <li>Skill 1</li>
+        <li>Skill 2</li>
+        <li>Skill 3</li>
+        <li>Skill 4</li>
+      </ul>
+    </div>
+    
+  </div>
 </body>
 </html>
